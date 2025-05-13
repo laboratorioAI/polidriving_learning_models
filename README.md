@@ -1,39 +1,22 @@
 # Learning Models
 
-POLIDriving is an 18-hour driving dataset with data from five heterogeneous sources (driver, vehicle, weather conditions, traffic accidents, and road geometrics characteristics). It contains around 61k observations and 32 attributes. Additionally, it contains 1980 labeled observations with four classes (low, medium, high, and very high) that represent the risk levels of suffering a traffic accident. Data was collected using an OBD-II scanner, a GPS receiver, and a health monitor. Four CUV, PICKUP, and SEDAN-type vehicles were used in the acquisition sessions. Finally, two routes through roads with high traffic accident rates and heavy traffic in the urban area of Quito (Ecuador) were considered for the acquisition sessions.
+## Dataset
+The models use the public-access driving dataset POLIDriving. After feature selection, the following attributes were selected: *observation hour*, *speed*, *rpm*, *acceleration*, *throttle position*, *engine temperature*, *engine load value*, *heart rate*, *current weather*, *visibility*, *precipitation*, *accidents onsite*, *design speed*, *accidents time*, and *risk level*. 
 
-# Dataset structure
+## Libraries
+Those models use <a href=https://docs.zama.ai/concrete-ml>Concrete ML</a>, a privacy-preserving machine learning (PPML) set of tools based on fully homomorphic encryption (FHE), to convert the learning model to its FHE equivalent.
 
-## Directory structure
+## Models
+Considering the available builtin models on Concrete ML, the following PPML models were created.
 
-POLIDriving contains driving data from 5 drivers (alonso, andres, pablo, richard, and yolanda) and also synthetic data from one unreal driver (furious).  
+* Decision tree
+* Random forest
+* Gradient boosting
+* Neural network
 
-The folder structure of POLIDriving is the following.
+## Configurations
 
-```
-dataset
-|
-+-- alonso
-|   |
-|   +-- 20231229_151643
-|       |
-|       +-- 2023-12-29 15-16-43.csv (raw vehicle data)
-|       +-- 20231229_151643_col.csv (consolidated data file)
-|       +-- 20231229_151643_pre.csv (data file after preprocessing)
-|       +-- 13281086609_ACTIVITY-record.csv (driver's data from health monitor)
-|   +-- 20240103_141959
-|   +-- 20240208_120000
-|   +-- 23241201_290300
-+-- andres
-+-- furious
-+-- labeled
-|       |
-|       +-- 20240208-120000_lss.csv (labeled data using semi-supervised learning)
-|       +-- 20240208-120000_vld.csv (labeled data verified by an expert)
-+-- pablo
-+-- richard
-+-- yolanda
-```
+
 
 ## Data file format
 
