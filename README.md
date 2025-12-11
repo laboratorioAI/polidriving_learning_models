@@ -4,7 +4,7 @@
 The models use the public-access driving dataset POLIDriving. After feature selection, the following attributes were selected: *observation hour*, *speed*, *rpm*, *acceleration*, *throttle position*, *engine temperature*, *engine load value*, *heart rate*, *current weather*, *visibility*, *precipitation*, *accidents onsite*, *design speed*, *accidents time*, and *risk level*. 
 
 ## Libraries
-Those models use <a href=https://docs.zama.ai/concrete-ml>Concrete ML</a>, a privacy-preserving machine learning (PPML) set of tools based on fully homomorphic encryption (FHE), to convert the learning model to its FHE equivalent.
+Those models use <a href=https://scikit-learn.org/>scikit-learn</a> and tensor flow<a href=https://www.tensorflow.org/</a>.
 
 ## Models
 The following machine learning models were created.
