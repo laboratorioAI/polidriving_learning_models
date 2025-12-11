@@ -78,4 +78,4 @@ The size of POLIDriving is about 150 MB.
 
 # Contact
 
-For questions or suggestions, please contact pablo.marcillo@epn.edu.ec
+For questions or suggestions, please contact pablomarcillolar@gmail.com or pablo.marcillo@epn.edu.ec
