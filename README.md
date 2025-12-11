@@ -7,12 +7,13 @@ The models use the public-access driving dataset POLIDriving. After feature sele
 Those models use <a href=https://docs.zama.ai/concrete-ml>Concrete ML</a>, a privacy-preserving machine learning (PPML) set of tools based on fully homomorphic encryption (FHE), to convert the learning model to its FHE equivalent.
 
 ## Models
-Considering the available builtin models on Concrete ML, the following PPML models were created.
+The following machine learning models were created.
 
-* Decision tree
-* Random forest
-* Gradient boosting
-* Neural network
+* Gradient boosting machines (GBM)
+* Support vector machines (SVM)
+* Convolutional neural networks (CNN)
+* Radial basis function networks (RBFNN) and
+* Multilayer perceptrons (MLP)
 
 ## Configurations
 
