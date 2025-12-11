@@ -4,7 +4,7 @@
 The models use the public-access driving dataset POLIDriving. After feature selection, the following attributes were selected: *observation hour*, *speed*, *rpm*, *acceleration*, *throttle position*, *engine temperature*, *engine load value*, *heart rate*, *current weather*, *visibility*, *precipitation*, *accidents onsite*, *design speed*, *accidents time*, and *risk level*. 
 
 ## Libraries
-Those models use <a href=https://scikit-learn.org/>scikit-learn</a> and tensor flow<a href=https://www.tensorflow.org/</a>.
+Those models use <a href=https://scikit-learn.org/>scikit-learn</a> and <a href=https://www.tensorflow.org/>tensor flow</a>.
 
 ## Models
 The following machine learning models were created.
